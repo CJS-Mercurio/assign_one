@@ -1,3 +1,4 @@
+<html>
 <head>
 		<title>GCD</title>
 <head>     
@@ -13,7 +14,7 @@
             <br><br>
         </form>
 	</body>
-
+<html>
 <?php 
     function GCD ($x,$y){
         if($y==0){
