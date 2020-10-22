@@ -8,14 +8,12 @@
 	<body>
 	<h2>Calculator</h2>
 		<form method="get">
-			<label>Input First Number :</label>
-			<br>
+			 Input First Number : <br>
 			<input name="n1">
-			<br>		
-			 Input Second Number:
-			<br>
+			<br><br>		
+			 Input Second Number: <br>
 			<input name="n2">
-			<br>
+			<br><br>
 			<button type = "+" name= "+" value= "+">+</button>
 			<button type = "-" name= "-" value= "+">-</button>
 			<button type = "*" name= "*" value= "+">*</button>
@@ -23,27 +21,27 @@
 			<br>
 
 		</form>
-		
+		<h3>Answer :</h3>
 		<?php
 		if(isset($_GET["+"])){
-			$this1 = $_GET["n1"];
-			$this2 = $_GET["n2"];
-			echo $this1 + $this2;
+			$result1 = $_GET["n1"]; 
+			$result2 = $_GET["n2"];
+			echo $result1 + $result2;
 		}
 		else if(isset($_GET["-"])){
-			$this1 = $_GET["n1"];
-			$this2 = $_GET["n2"];
-			echo $this1 - $this2;
+			$result1 = $_GET["n1"];
+			$result2 = $_GET["n2"];
+			echo $result1 - $result2;
 		}
 		else if(isset($_GET["*"])){
-			$this1 = $_GET["n1"];
-			$this2 = $_GET["n2"];
-			echo $this1 * $this2;
+			$result1 = $_GET["n1"];
+			$result2 = $_GET["n2"];
+			echo $result1 * $result2;
 		}
 		else if(isset($_GET["/"])){
-			$this1 = $_GET["n1"];
-			$this2 = $_GET["n2"];
-			echo $this1 / $this2;
+			$result1 = $_GET["n1"];
+			$result2 = $_GET["n2"];
+			echo $result1 / $result2;
 		}
 				
 		?>
