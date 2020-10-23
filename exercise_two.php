@@ -3,7 +3,7 @@
 	<title>Calculator</title>
 <head>
 	<body>
-	<h2>Calculator</h2>
+	<h1>Calculator</h1>
 		<form method="get">
 			 Input First Number: <br><br>
 			<input name="n1"><br><br>		

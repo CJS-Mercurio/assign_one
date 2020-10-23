@@ -1,9 +1,9 @@
 <html>
 <head>
-		<title>GCD</title>
+	    <title>GCD</title>
 <head>     
 	<body>
-        <h2>GCD</h2>
+        <h1>Finding GCD</h1>
         <form method="post">
             Input First Number: <br><br>
             <input type="text" name="n1" ><br><br>
